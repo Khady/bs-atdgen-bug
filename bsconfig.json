@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "namespace": false,
+  "version": "0.0.1",
+  "bsc-flags": [
+    "-bs-no-version-header",
+    "-bs-super-errors"
+  ],
+  "sources": [
+    {
+      "dir": ".",
+      "subdirs": false
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@glennsl/bs-json",
+    "@ahrefs/bs-atdgen-codec-runtime"
+  ],
+  "warnings": {
+    "error" : "+101"
+  }
+}

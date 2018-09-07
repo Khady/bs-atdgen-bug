@@ -1,0 +1,9 @@
+type t = [
+  | A
+  | B
+] <ocaml repr="classic">
+
+type t2 = [
+  | A
+  | C
+] <ocaml repr="classic">
